@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="hero">
+            <header class="header">
+                <a href="" class="logo">
+                    <img src="./img/content/logos/logo-main.png" class="logopicture" alt="lost shirt logo">
+                </a>
+                <a href="mailto:ilykst@gmail.com" class="mail">
+                    <div class="mail__title">По всіх питаннях пишіть на:</div>
+                    <div class="mail__content">ilykst@mail.ru</div>
+                </a>
+            </header>
+            <div class="hero__content">
+                <ul class="fade-slider">
+                    <li class="fade-slider__item fade-slider__item__tshirt fade-slider__item__visible">
+                        <div class="fade-slider__text">
+                            <h1 class="lined-text">
+                                <div class="lined-text__word">три</div>
+                                <div class="lined-text__word">футболки</div>
+                                <div class="lined-text__word lined-text__word--color-yellow">по ціні</div>
+                                <div class="lined-text__word lined-text__word--color-yellow">двох</div>
+                            </h1>
+                        </div>
+                    </li>
+                    <li class="fade-slider__item fade-slider__item__games">
+                        <div class="fade-slider__text">
+                            <h1 class="lined-text">
+                                <div class="lined-text__word">Любімиє ігри</div>
+                                <div class="lined-text__word lined-text__word--color-yellow">на лутших футболках</div>
+                            </h1>
+                        </div>
+                    </li>
+                    <li class="fade-slider__item fade-slider__item__presents">
+                        <div class="fade-slider__text">
+                            <h1 class="lined-text">
+                                <div class="lined-text__word">Подарки</div>
+                                <div class="lined-text__word lined-text__word--color-yellow">для любимих</div>
+                            </h1>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <aside class="sidebar">
+                <a href="#" class="sidebar__hamburger">
+                    <div class="hamburger__icon">
+                        <img src="./img/svg/bars-solid.svg" alt="main logo" class="logo__img">
+                    </div>
+                </a>
+                <div class="sidebar__header">
+                    
+                    <a href="#" class="logo">
+                        <img src="./img/content/logos/logo-main.png" alt="main logo" class="logo__img">
+                    </a>
+                    <a href="#" class="sidebar__close">
+                        <img src="./img/svg/times-solid.svg" alt="close icon" class="sidebar__close__icon">
+                    </a>
+                </div>
+                <nav class="side__menu sidebar__menu">
+                    <ul class="side__menu__list">
+                        <li class="side__menu__item">
+                            <a href="#" class="side__menu__link">Детская колекція</a>
+                        </li>
+                        <li class="side__menu__item">
+                            <a href="#" class="side__menu__link">Мужская колекція</a>
+                        </li>
+                        <li class="side__menu__item">
+                            <a href="#" class="side__menu__link">Женская колекція</a>
+                        </li>
+                        <li class="side__menu__item">
+                            <a href="#" class="side__menu__link">Популярниє прінти</a>
+                        </li>
+                        <li class="side__menu__item">
+                            <a href="#" class="side__menu__link">Новиє прінти</a>
+                        </li>
+                        <li class="side__menu__item">
+                            <a href="#" class="side__menu__link">Спеціальниє предложенія</a>
+                        </li>
+                        <li class="side__menu__item">
+                            <a href="#" class="side__menu__link">Скоро в продажі</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <ul class="filter">
+                    <li class="filter__item filter__item--active">
+                        <a href="#" data-filter="popular" class="filter__link">Популярне</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="new" class="filter__link">Новинки</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="bestseller" class="filter__link">Бестселлери</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="specials" class="filter__link">Соціальні предложенія</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="soon" class="filter__link">Скоро в продажі</a>
+                    </li>
+                </ul>
+                <ul class="products_list">
+                    <li class="product__item new bestseller">
+                        <div class="product__price">
+                            <div class="product__price_amount">
+                                1 800
+                            </div>
+                        </div>
+                        <div class="product__content">
+                            <img src="./img/tshirts/tshirt_01.png" alt="bo-jack tshirt" class="product__img">
+                            <div class="product__desc">
+                                <div class="product__desc_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <a href="" class="btn">Подробней</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product__item new specials soon">
+                        <div class="product__price">
+                            <div class="product__price_amount">
+                                1 800
+                            </div>
+                        </div>
+                        <div class="product__content">
+                            <img src="./img/tshirts/tshirt_02.png" alt="bo-jack tshirt" class="product__img">
+                            <div class="product__desc">
+                                <div class="product__desc_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <a href="" class="btn">Подробней</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product__item new popular specials product__item__color__black product__item__size__double">
+                        <div class="product__price">
+                            <div class="product__price_amount">
+                                1 800
+                            </div>
+                        </div>
+                        <div class="product__content">
+                            <img src="./img/tshirts/tshirt_03.png" alt="bo-jack tshirt" class="product__img">
+                            <div class="product__desc">
+                                <div class="product__desc_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <a href="" class="btn">Подробней</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product__item new popular soon product__item__color__black product__item__size__double">
+                        <div class="product__price">
+                            <div class="product__price_amount">
+                                1 800
+                            </div>
+                        </div>
+                        <div class="product__content">
+                            <img src="./img/tshirts/tshirt_04.png" alt="bo-jack tshirt" class="product__img">
+                            <div class="product__desc">
+                                <div class="product__desc_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <a href="" class="btn">Подробней</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product__item new specials soon">
+                        <div class="product__price">
+                            <div class="product__price_amount">
+                                1 800
+                            </div>
+                        </div>
+                        <div class="product__content">
+                            <img src="./img/tshirts/tshirt_05.png" alt="bo-jack tshirt" class="product__img">
+                            <div class="product__desc">
+                                <div class="product__desc_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <a href="" class="btn">Подробней</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product__item new">
+                        <div class="product__price">
+                            <div class="product__price_amount">
+                                1 800
+                            </div>
+                        </div>
+                        <div class="product__content">
+                            <img src="./img/tshirts/tshirt_06.png" alt="bo-jack tshirt" class="product__img">
+                            <div class="product__desc">
+                                <div class="product__desc_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <a href="" class="btn">Подробней</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="collections">
+            <div class="container">
+                <ul class="collection__list">
+                    <li class="collection__item collection__item__type__guys">
+                        <a href="#" class="collection__link">
+                            <h2 class="collection__title">Мужская коллекція</h2>
+                            <div class="collection_desc">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente.
+                            </div>
+                            <div class="btn">посмотреть</div>
+                        </a>
+                    </li>
+                    <li class="collection__item collection__item__type__girls">
+                        <a href="#" class="collection__link">
+                            <h2 class="collection__title">Женская коллекція</h2>
+                            <div class="collection_desc">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente.
+                            </div>
+                            <div class="btn">посмотреть</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <nav class="site__menu">
+                    <ul class="site__menu__section">
+                        <li class="site__menu__col">
+                            <h3 class="site__menu__title">Інформація</h3>
+                            <ul class="site__munu__list">
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Про магазин</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Адрес магазину</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Як зробити заказ?</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Обмен і возврат</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Отзиви</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="site__menu__col">
+                            <h3 class="site__menu__title">Футболки</h3>
+                            <ul class="site__munu__list">
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Популярне</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Новинки</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Бестселлери</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Спеціальниє предложенія</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Скоро в продажі</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="site__menu__col">
+                            <h3 class="site__menu__title">Колекції</h3>
+                            <ul class="site__munu__list">
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Дитячі колекції</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Жіночі колекції</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Мужскі колекції</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Лутшие прінти 2018 року</a>
+                                </li>
+                                <li class="site__menu__item">
+                                    <a href="#" class="site__menu__link">Лутшие прінти 2019 року</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="site__menu__col">
+                            <h3 class="site__menu__title">Контактна інформація</h3>
+                            <div class="site__menu__text">
+                                Санкт-петербург <br /> вул Жуковського 12
+                            </div>
+                            <div class="site__menu__text">
+                                <a href="tel.:+380638211673" class="site__menu_text__row">Телефон: 52634456546</a>
+                                <a href="mailto:ilykst@gmail.com" class="site__menu_text__row">Email: ilykst@gmail.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="extra">
+                    <div class="extra__col">
+                        <a href="#" class="extra__best">Лутшие прінти<br> 2019 року</a>
+                    </div>
+                    <div class="extra__col">
+                        <div class="extra__col__social">
+                            <ul class="socials">
+                                <li class="social__items">
+                                    <a href="#" class="social__link">
+                                        <div class="social__icon fb">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="social__items">
+                                    <a href="#" class="social__link">
+                                        <div class="social__icon twitter">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="social__items">
+                                    <a href="#" class="social__link">
+                                        <div class="social__icon insta">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="social__items">
+                                    <a href="#" class="social__link">
+                                        <div class="social__icon pin">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="./scripts/sidebar-menu.js"></script>
+    <script src="./scripts/fade-slider.js"></script>
+    <script src="./scripts/filter.js"></script>
+</body>
+</html>
